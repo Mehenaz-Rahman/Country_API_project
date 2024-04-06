@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Country Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="./pictures/weather-app copy.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+    <script src="weather.js"></script>
+</head>
+<body>
+  <div class="nav-bar">
+  <label class="logo"><i class='bx bxs-sun'></i> Weather Forecast</label>
+  </div>
+    <hr>
+    <div class="container">
+        <h1>Let's know the weather forecast</h1>
+          <div class="search-bar">
+              <input type="text" id="cityInput" value="" placeholder="Search here...">
+              <button onclick="weatherApi()">Search</button></div>
+          <div id="weatherInfo"></div>
+    </div> 
+    <footer class="footer">
+      <div class="footer-text">
+          <p>Copyright &copy; 2024 By Mehenaz | All Rights Reserved.</p>
+      </div>
+  </footer>
+</body>
+</html>
